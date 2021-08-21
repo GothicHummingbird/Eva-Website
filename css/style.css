@@ -114,3 +114,23 @@ p {
 .border-white {
   padding: 5px;
 }
+
+@media (max-width: 576px) {
+  h1 {
+    font-size: 48px;
+    line-height: 1.5;
+    text-align: center;
+  }
+  h2 {
+    font-size: 32px;
+    text-align: center;
+  }
+  .project-link {
+    display: block;
+    text-align: center;
+    margin: 0 20px;
+  }
+  p {
+    text-align: center;
+  }
+}
